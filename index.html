@@ -450,6 +450,25 @@
             </li>
           </ul>
         </div>
+        <div class="footer-sec-three">
+          <p class="text-subscribe">Subscribe</p>
+          <form class="foot-form" action="">
+            <label class="foot-label" for="">
+              <input class="foot-input" 
+              type="text"
+              name="name"
+              placeholder="E-mail"
+              required>
+            </label>
+          </form>
+        </div>
+        <div class="footer-sec-four">
+          <button class="button-subscribe" type="submit">Subscribe <span>
+            <svg class="svg-subscribe" width="24" height="20">
+            <use href="./images/sprite.svg#icon-icon-send"></use>
+          </svg>
+          </span></button>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -461,13 +480,30 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
       <form class="modal-form">
+        <div class="modal-field">     
         <label class="modal-label">
           <span class="">Name</span>
-          <input type="text" name="Name" class="modal-input" placeholder="Name" required> </label>
+          <span class="input-wrap">
+          <input type="text" name="Name" class="modal-input" placeholder="" required> 
+        <svg class="modal-icon" width="12" height="12">
+      <use href="./images/sprite.svg#icon-Vector-2">
+      </use>
+    </svg> 
+        </span>
+        </label>
+        </div>
+   <div class="modal-field">      
 <label class="modal-label">
 <span class="">Phone</span>
-  <input type="tel" name="Phone" class="modal-input" placeholder="Phone" required>
+<span class="input-wrap">
+  <input type="tel" name="Phone" class="modal-input" placeholder="" required>
+<svg class="modal-icon" width="13" height="13">
+      <use href="./images/sprite.svg#icon-Vector-3">
+      </use>
+    </svg> 
+</span>
 </label>
+</div>
 <div class="modal-field"> 
 <label class="modal-label">
       <span class="">Email</span>
@@ -479,14 +515,19 @@
     </svg> 
     </span>
     </label>
-    </div>        
+        </div>        
 <label class="modal-label">
   <span>Comment</span>
+  <span class="input-wrap">
 <input type="text" name="Comment" class="modal-input-text" placeholder="Text input" required>
+</span>
 </label>
-      
+    <div class="modal-field">
+      <input type="checkbox" name="privacy" id="" class="input-check" value="tru">
+      <label for="privacy" class="check-text">I accept the terms and conditions of the   <a href="">Privacy Policy</a></label>
+    </div>  
 
-<button type="submit">Send</button>
+<button class="button-send" type="submit">Send</button>
       </form>
       </div>
     </div>
