@@ -756,7 +756,7 @@ text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
 margin-top: 24px;
-margin-bottom: 34px;
+margin-bottom: 16px;
 }
 
 .modal-input {
@@ -862,6 +862,11 @@ height: 56px;
   background-color: var(--hover-order);
 }
 
+.input-check {
+  margin-top: 16px;
+  display: flex;
+}
+
 /* Foot modal */
 
 .text-subscribe {
@@ -893,19 +898,37 @@ background-color: #2E2F42;
 padding-left: 16px;
 }
 
+.footer-sec-four {
+
+}
+
 .button-subscribe {
  font-family: "Roboto", sans-serif;
   background-color: var(--button-normal);
   border-radius: 4px;
   width: 165px;
-height: 40px;
+  height: 40px;
   line-height: 1.5;
   display: block;
   align-items: center;
   justify-content: center;
   letter-spacing: 0.04em;
   color: var(--brand-color);
-  margin: 0 auto;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 16px;
 }
+
+.sub-svg {
+  margin-left: 16px;
+  }
+
+  .hid-foot {
+     font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 16px;
+color: #2E2F42;
+  }
