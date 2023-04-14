@@ -766,6 +766,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 outline: transparent;
 fill: #2E2F42;
+padding-left: 38px;
 }
 
 .modal-input:focus {
@@ -781,6 +782,7 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.01em;
 color: #8E8F99;
+
 }
 
 .modal-input-text {
@@ -806,6 +808,7 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8E8F99;
 margin-bottom: 8px;
+
 }
 
 .modal-label span {
@@ -825,7 +828,7 @@ margin-bottom: 8px;
 }
 
 .modal-field {
-  margin-bottom: 26px;
+  margin-bottom: 8px;
 }
 
 .check-text {
