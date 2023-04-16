@@ -184,6 +184,7 @@ img {
   background-color: var(--button-normal);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -706,7 +707,7 @@ img {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(46, 47, 66, 0.4);;
+  background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -721,8 +722,8 @@ img {
   transform: translate(-50%, -50%) scale(1);
   transition: 250ms linear;
   padding: 24px;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
+ border-radius: 4px;
+background-color: #FCFCFC;
  }
 
 .button-modal {
@@ -731,9 +732,10 @@ border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.1);1px solid rgba(0, 0, 0, 0.1);;
   background-color: #E7E9FC;
   border-radius: 50%;
-    display: block;
+  display: block;
   margin-left: auto;
-  }
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .button-modal-svg {
   width: 8px;
@@ -741,7 +743,7 @@ border-radius: 4px;
   display: block;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
+  margin: 0 auto;
   }
   
 .button-modal:hover, .button-modal:focus {
@@ -774,6 +776,8 @@ border-radius: 4px;
 outline: transparent;
 fill: #2E2F42;
 padding-left: 38px;
+background-color: #FCFCFC;
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus {
@@ -883,6 +887,7 @@ font-size: 12px;
 line-height: 14px;
 letter-spacing: 0.04em;
 color: rgba(46, 47, 66, 0.4);
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea:focus {
@@ -906,7 +911,6 @@ margin-bottom: 4px;
 .button-send {
   font-family: "Roboto", sans-serif;
   background-color: var(--button-normal);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   width: 169px;
   height: 56px;
@@ -919,6 +923,7 @@ margin-bottom: 4px;
   margin: 0 auto;
   cursor: pointer;
   margin-top: 24px;
+  border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -979,6 +984,7 @@ padding-left: 16px;
  font-family: "Roboto", sans-serif;
   background-color: var(--button-normal);
   border-radius: 4px;
+  border: none;
   width: 165px;
   height: 40px;
   line-height: 1.5;
