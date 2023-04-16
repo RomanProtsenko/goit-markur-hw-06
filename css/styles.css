@@ -713,14 +713,14 @@ img {
 .modal {
   width: 408px;
   min-height: 576px;
-  background-color: #fcfcfc;
+    background-color: #fcfcfc;
   border-radius: 4px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: 250ms linear;
-  padding: 20px;
+  padding: 24px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
  }
@@ -739,8 +739,11 @@ border-radius: 4px;
   width: 8px;
   height: 8px;
   display: block;
+  justify-content: center;
+  align-items: center;
   margin-left: auto;
   }
+  
 .button-modal:hover, .button-modal:focus {
 background-color: #404BBF;
 fill: white;
@@ -833,7 +836,7 @@ margin-bottom: 8px;
 
 .modal-field {
   margin-bottom: 8px;
- }
+   }
 
  .modal-field-check {
   
@@ -882,6 +885,11 @@ letter-spacing: 0.04em;
 color: rgba(46, 47, 66, 0.4);
 }
 
+.modal-textarea:focus {
+  border: 1px solid #4D5AE5;
+border-radius: 4px;
+}
+
 .comment {
 font-size: 12px;
 line-height: 14px;
@@ -926,6 +934,11 @@ margin-bottom: 4px;
   margin-top: 16px;
   display: flex;
 }
+
+.privac {
+  color:  #4D5AE5;
+  padding-left: 4px;
+  }
 
 /* Foot modal */
 
